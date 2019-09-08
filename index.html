@@ -1,0 +1,29 @@
+<!-- Add double curly brace to css and {0} to textarea -->
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" hres="normalize.css" />
+    <title>Encryptor</title>
+  </head>
+  <body>
+    <div class="content" id="encryption_machine">
+      <img src="images/encryptor-flames.gif" />
+      <form method="POST" id="encryption">
+        <p>Rotate by:</p>
+        <input type="text" id="rot" name="rot" />
+        <p>Input text:</p>
+        <textarea name="text" id="text">{0}</textarea>
+        <input type="submit" />
+      </form>
+    </div>
+
+    <!-- partial:index.partial.html -->
+    <canvas id="c"></canvas>
+    <!-- partial -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
