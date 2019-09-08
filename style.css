@@ -1,0 +1,43 @@
+form {
+  background-color: #eee;
+  padding: 20px;
+  margin: 0 auto;
+  width: 540px;
+  font: 16px sans-serif;
+  border-radius: 10px;
+}
+textarea {
+  margin: 10px 0;
+  width: 540px;
+  height: 120px;
+}
+.content {
+  position: absolute;
+  padding-left: 35%;
+  padding-top: 15%;
+  width: 30%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  position: absolute;
+  display: flex;
+}
+
+/* Matrix Rain Stuff */
+
+/*basic reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*adding a black bg to the body to make things clearer*/
+body {
+  background: black;
+}
+canvas {
+  position: absolute;
+  z-index: 1;
+}
