@@ -1,5 +1,5 @@
 form {
-  background-color: black;
+  background-color: rgba(0,0,0,0.5);
   color: lawngreen;
   padding: 20px;
   margin: 0 auto;
@@ -7,15 +7,17 @@ form {
   font: 16px sans-serif;
 }
 input {
-  background-color: black;
-  color: lawngreen;
+  background-color: rgba(0,0,0,0.5);
+  color: rgb(112, 202, 22);
+  border: rgb(112, 202, 22);
 }
 textarea {
-  background-color: black;
+  background-color: rgba(0,0,0,0.5);
   color: lawngreen;
   margin: 10px 0;
   width: 540px;
   height: 120px;
+  border: none;
 }
 .content {
   position: absolute;
