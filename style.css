@@ -1,12 +1,18 @@
 form {
-  background-color: #eee;
+  background-color: black;
+  color: lawngreen;
   padding: 20px;
   margin: 0 auto;
   width: 540px;
   font: 16px sans-serif;
-  border-radius: 10px;
+}
+input {
+  background-color: black;
+  color: lawngreen;
 }
 textarea {
+  background-color: black;
+  color: lawngreen;
   margin: 10px 0;
   width: 540px;
   height: 120px;
@@ -19,6 +25,13 @@ textarea {
   z-index: 2;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+#top_pic{
+  margin-bottom: 105px;
+  margin-right: 330px;
+  z-index: 2;
 }
 
 img {
